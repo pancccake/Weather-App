@@ -1,0 +1,11 @@
+assets/.DS_Store
+/assets
+README.md
+node_modules
+package-lock.json
+/dist
+package.json
+.DS_Store
+webpack.config.js
+.DS_Store
+assets

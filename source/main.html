@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+</head>
+<body>
+    <section id="video-background">
+        <div class="headline">
+            <h1>Welcome to the <br> <span>Weather</span> App</h1>
+        </div>
+        <div class="city-input">
+            <input type="text" id="locationInput" name="fname" placeholder="Enter your city...">
+            <button type="submit" id="search"><img src="./../assets/search-icon.png" alt="Search"></button>
+        </div>
+        <div class="desk">
+            <table>
+                <tr><td colspan="2" id="location">City, Country</td><td></td></tr>
+                <tr><td colspan="2" id="description">Description</td><td></td></tr>
+                <tr><td colspan="2"><img id="picture"></td><td></td></tr>
+                <tr><td colspan="2" id="temperature">Temperature</td><td></td></tr>
+                <tr><td id="wind">Wind</td><td id="humidity">Humidity</td></tr>
+            </table>
+        </div>
+        <video autoplay muted loop src="./../assets/background-video.mp4"></video>
+    </section>
+    <script src="./../dist/main.js"></script>
+</body>
+</html>

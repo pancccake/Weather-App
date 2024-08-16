@@ -1,0 +1,136 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+section#video-background {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+section#video-background video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+section .headline {
+    z-index: 2;
+    position: absolute;
+    top: 10%;
+    width: 20em;
+    text-align: center;
+}
+
+section .headline h1 {
+    color: white;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+section .headline span {
+    color: rgb(152, 191, 230);
+}
+
+section .city-input {
+    z-index: 2;
+    position: absolute;
+    top: 25%;
+    width: 18em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section .city-input input {
+    height: 2em;
+    width: 13em;
+    background-color: rgba(255, 255, 255, 0.529);
+    border: 1px solid rgba(255, 255, 255, 0.529);
+    border-radius: 0.5em;
+}
+
+section #locationInput {
+    padding: 0.5em;
+    background-color: rgba(255, 255, 255, 0.529);
+}
+
+section #search {
+    height: 2em;
+    width: 2em;
+    background-color: rgba(255, 255, 255, 0.529);
+    border: 1px solid rgba(255, 255, 255, 0.529);
+    border-radius: 0.5em;
+    text-align: center;
+    margin-left: 0.2em;
+    cursor: pointer;
+}
+section #search:hover {
+    background-color: rgba(255, 255, 255, 0.758);
+}
+section button img {
+    height: 1.5em;
+    width: 1.5em;
+}
+
+section .desk {
+    z-index: 2;
+    position: absolute;
+    top: 35%;
+    height: 25em;
+    width: 25em;
+    background-color:rgba(255, 255, 255, 0.529);
+}
+
+section .desk 
+tr {
+    width: 100%;
+    text-align: center;
+    padding: 1em;
+}
+section .desk td {
+    width: 50%;
+}
+section .desk table {
+    width: 100%;
+    height: 100%;
+    padding-left: 0.3em;
+    padding-bottom: 1.5em;
+    padding-top: 1.5em;
+}
+
+section #location {
+    font-size: 1.3em;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+}
+
+section #description {
+    font-size: 1em;
+}
+
+section #temperature {
+    font-size: 1.2em;
+}
+
+section #wind {
+    font-size: 1em;
+}
+
+section #humidity {
+    font-size: 1em;
+}
+
+.weatherImg {
+    height: 7em;
+    width: 7em;
+}

@@ -1,0 +1,87 @@
+@media (min-aspect-ration: 16/9) {
+    section #video-background video {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-aspect-ratio: 16/9) {
+    section #video-background video {
+        width: auto;
+        height: 100%;
+    }
+}
+
+@media (max-width: 30em) {
+    html {
+        font-size: 70%;
+    }
+
+    section .desk {
+    height: 45%;
+    width: 70%;
+    }
+}
+
+@media (max-height: 37.5em) {
+    section .headline {
+        top: 5%;
+    }
+
+    section .city-input {
+        top: 20%;
+    }
+
+    section .desk {
+        height: 65%;
+        top: 30%;
+    }
+}
+
+@media (min-height: 46em) {
+    section .desk {
+        height: 25em;
+        width: 25em;
+    }
+}
+
+@media (min-height: 80em) {
+    section .headline h1 {
+        font-size: 2.5em;
+    }
+
+    section .city-input input{
+        height: 2.5em;
+        width: 15em;
+    }
+
+    section #search {
+        height: 2.5em;
+        width: 2.5em;
+    }
+
+    section .desk {
+        height: 30em;
+        width: 30em;
+    }
+
+    section #location {
+        font-size: 1.5em;
+    }
+
+    section #description {
+        font-size: 1.2em;
+    }
+    
+    section #temperature {
+        font-size: 1.5em;
+    }
+
+    section #wind {
+        font-size: 1.2em;
+    }
+    
+    section #humidity {
+        font-size: 1.2em;
+    }
+}
